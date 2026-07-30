@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "backstage-pro-skills",
+  "description": "Skills de copywriting e páginas de vendas para alunas da comunidade, por Patrícia Sales",
+  "owner": {
+    "name": "Patrícia Sales",
+    "url": "https://github.com/patriciaspascoa"
+  },
+  "plugins": [
+    {
+      "name": "pagina-de-vendas",
+      "description": "Cria páginas de vendas que convertem (MD primeiro, HTML após aprovação) ou audita páginas existentes a partir de texto, HTML ou link publicado.",
+      "author": {
+        "name": "Patrícia Sales"
+      },
+      "source": "./pagina-de-vendas",
+      "category": "sales"
+    }
+  ]
+}
