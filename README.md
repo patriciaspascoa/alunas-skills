@@ -5,8 +5,8 @@ Skills para Claude Code de uso da comunidade Backstage PRO.
 ## Instalação
 
 ```bash
-/plugin marketplace add patriciaspascoa/backstage-pro-skills
-/plugin install pagina-de-vendas@backstage-pro-skills
+/plugin marketplace add patriciaspascoa/alunas-skills
+/plugin install pagina-de-vendas@alunas-skills
 ```
 
 ## Skills disponíveis
@@ -24,5 +24,5 @@ Após instalar, use `/pagina-de-vendas` no Claude Code, ou simplesmente descreva
 Quando uma skill for atualizada neste repositório, rode para puxar a versão nova:
 
 ```bash
-/plugin marketplace update backstage-pro-skills
+/plugin marketplace update alunas-skills
 ```

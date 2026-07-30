@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "backstage-pro-skills",
+  "name": "alunas-skills",
   "description": "Skills de copywriting e páginas de vendas para alunas da comunidade, por Patrícia Sales",
   "owner": {
     "name": "Patrícia Sales",
