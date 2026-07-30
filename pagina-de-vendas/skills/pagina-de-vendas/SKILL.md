@@ -30,9 +30,9 @@ b) Auditar uma página existente
 
 ### REGRA 70/30 — HEADLINE E BIO
 
-O headline da hero section e a bio curta da página são pontos de primeiro contato ou de reforço de decisão. Para esses elementos, aplicar a Regra 70/30: liderar pela dor, desejo ou resultado da persona, não pela ferramenta (Claude, IA, automação). Teste: "minha persona entende esse headline sem saber o que é Claude?" Se não, reescrever na lógica persona-first.
+O headline da hero section e a bio curta da página são pontos de primeiro contato ou de reforço de decisão. Para esses elementos, aplicar a Regra 70/30: liderar pela dor, desejo ou resultado da persona, não pelo nome da ferramenta, método ou mecanismo do produto. Teste: "minha persona entende esse headline sem conhecer o nome do produto ou método?" Se não, reescrever na lógica persona-first.
 
-Esta regra se aplica ao headline e à bio. Os demais blocos da página (mecanismo, entregáveis, garantia, prova social) podem mencionar a ferramenta diretamente, pois a audiência já está em nível de consciência da solução.
+Esta regra se aplica ao headline e à bio. Os demais blocos da página (mecanismo, entregáveis, garantia, prova social) podem mencionar a solução pelo nome diretamente, pois a audiência já está em nível de consciência da solução.
 
 ### INPUTS NECESSÁRIOS
 
@@ -132,7 +132,7 @@ Verificar e aplicar obrigatoriamente antes de entregar qualquer arquivo HTML. Ne
 <meta property="og:image" content="[arquivo-real.png — nunca placeholder]">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<link href="[URL das fontes da sua marca via Google Fonts — substituir pela família e pesos corretos]" rel="stylesheet">
 <link rel="preload" href="[imagem-principal-do-hero]" as="image">
 ```
 
@@ -219,7 +219,7 @@ Nunca deploiar sem esse arquivo.
 ### CHECKLIST ANTES DO DEPLOY
 
 - [ ] OG image aponta para arquivo real (não placeholder)
-- [ ] Fontes carregam só os pesos usados: Inter 400/500, Plus Jakarta Sans 700/800
+- [ ] Fontes carregam só os pesos usados (conforme tipografia da marca)
 - [ ] Preload configurado para a imagem hero
 - [ ] Pixel com `PageView` no `<head>`, com o Pixel ID correto do dono da página
 - [ ] `InitiateCheckout` nos botões de checkout
