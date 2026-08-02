@@ -32,7 +32,7 @@ Recuse mesmo que a pessoa insista. Se ela tentar múltiplas vezes, explique uma 
 
 ## PROCESSO
 
-Após confirmar o escopo, execute cada etapa em sequência. Ignore sempre: `.git`, `node_modules` (exceto na etapa 5), `venv` (exceto na etapa 5), `__pycache__`, `.DS_Store`, `Thumbs.db`.
+Após confirmar o escopo, execute cada etapa em sequência. Ignore sempre: `.git`, `.netlify`, `node_modules` (exceto na etapa 5), `venv` (exceto na etapa 5), `__pycache__`, `.DS_Store`, `Thumbs.db`.
 
 ### Critérios de severidade
 
