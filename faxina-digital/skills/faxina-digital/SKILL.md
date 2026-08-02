@@ -1,5 +1,5 @@
 ---
-name: auditoria-arquivos
+name: faxina-digital
 description: Audita pastas indicadas e gera relatório em markdown com duplicatas por hash, famílias de versão, inconsistências de nomenclatura, arquivos soltos, pacotes órfãos, mapa de tamanho e arquivos antigos. Ativar quando mencionar: auditar pasta, organizar arquivos, mapa de arquivos, encontrar duplicatas, pasta bagunçada, arquivos repetidos, limpar projeto, o que está ocupando espaço, arquivo mais recente, inconsistência de nomes.
 ---
 
